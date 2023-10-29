@@ -1,0 +1,55 @@
+body, h1, h2, p, label, input, button {
+    margin: 0;
+    padding: 0;
+    }
+    
+    body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    }
+    header {
+    background-image: url(IMAGE3.jpg);
+    color: #ec0d0d;
+    text-align: center;
+    padding: 1rem;
+    }
+    main {
+    background-image: url(image1.jpg);
+    padding: 9rem;
+    text-align: center;
+    }
+    footer {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #ff7300;
+    color: #fff;
+    }
+    
+    .signup-form,.signin-form {
+    max-width: 300px;
+    margin: 0 auto;
+    }
+    label {
+    display: block;
+    margin-bottom: 5px;
+    }
+    input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    }
+    button {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #1ed30e;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    }
+    button:hover {
+    background-color: #555;
+    }
+   
